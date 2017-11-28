@@ -1,0 +1,89 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+@media (max-width: 960px) {
+  .big {
+    width: 100vw;
+    height: 50vh;
+    margin-bottom: 2vh;
+    background-color: black;
+  }
+  .small-1{
+    width: 48vw;
+    height: 48vh;
+    /*margin-right: 2vw;*/
+    background-color: black;
+    float: left;
+  }
+  .small-2{
+    width: 48vw;
+    height: 48vh;
+    margin-left: 2vw;
+    background-color: black;
+    float: left;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .big {
+    width: 100vw;
+    height: 50vh;
+    margin-bottom: 5vh;
+    background-color: black;
+  }
+  .small-1{
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 5vh;
+    background-color: black;
+  }
+  .small-2{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+  }
+
+}
+@media (min-width: 961px) {
+  .big {
+    width: 70vw;
+    height: 100vh;
+    margin-right: 2vh;
+    background-color: black;
+    float: left;
+  }
+  .small-1{
+    width: 27vw;
+    height: 49vh;
+    margin-bottom: 2vh;
+    background-color: black;
+    float: left;
+  }
+  .small-2{
+    width: 27vw;
+    height: 49vh;
+    background-color: black;
+    float: left;
+  }
+
+}
